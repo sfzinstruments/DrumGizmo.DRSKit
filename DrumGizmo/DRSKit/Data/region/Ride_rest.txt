@@ -1,0 +1,10 @@
+#define $instr Ride_rest
+group_label=$instr
+group=$grp_rd_rst
+off_by=$off_rd
+key=$key_rd_rst
+
+<region> lovel=$v11l hivel=$v11h amp_velcurve_$v11h=1 region_label=1 sample=$instr/1-$instr-$mic.$ext seq_length=4 seq_position=1
+<region> lovel=$v11l hivel=$v11h amp_velcurve_$v11h=1 region_label=2 sample=$instr/2-$instr-$mic.$ext seq_length=4 seq_position=2
+<region> lovel=$v11l hivel=$v11h amp_velcurve_$v11h=1 region_label=3 sample=$instr/3-$instr-$mic.$ext seq_length=4 seq_position=3
+<region> lovel=$v11l hivel=$v11h amp_velcurve_$v11h=1 region_label=4 sample=$instr/4-$instr-$mic.$ext seq_length=4 seq_position=4

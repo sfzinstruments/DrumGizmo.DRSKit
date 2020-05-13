@@ -1,0 +1,4 @@
+polyphony=$poly_drm
+off_time=$otm_t3
+
+<group> #include "Data/region/Tom3.txt"

@@ -1,0 +1,18 @@
+polyphony=$poly_cym
+off_time=$otm_rd
+
+<group> #include "Data/region/Ride_tip.txt"
+<group> #include "Data/region/Ride_shank_bell.txt"
+<group> #include "Data/region/Ride_rest.txt"
+<group> #include "Data/region/Ride_shank.txt"
+<group> #include "Data/region/Ride_tip_bell.txt"
+<group> #include "Data/region/Ride_tip_bell_chain.txt"
+<group> #include "Data/region/Ride_tip_chain.txt"
+
+//--------------------------------------------
+
+<group>
+key=$chk_rd
+group=$off_rd
+group_label=Ride_choke
+<region> sample=*silence

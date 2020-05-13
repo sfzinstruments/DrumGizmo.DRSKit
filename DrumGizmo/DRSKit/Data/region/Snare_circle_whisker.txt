@@ -1,0 +1,10 @@
+#define $instr Snare_circle_whisker
+group_label=$instr
+group=$grp_sm
+off_by=$grp_sn
+off_time=$otm_sm
+polyphony=1
+key=$key_w_sn_crc
+
+<region> lovel=$v11l hivel=$v11h amp_velcurve_$v11h=1 region_label=1 sample=$instr/1-$instr-$mic.$ext seq_length=2 seq_position=1
+<region> lovel=$v11l hivel=$v11h amp_velcurve_$v11h=1 region_label=2 sample=$instr/2-$instr-$mic.$ext seq_length=2 seq_position=2

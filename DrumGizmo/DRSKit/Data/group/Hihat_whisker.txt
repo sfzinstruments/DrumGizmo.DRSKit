@@ -1,0 +1,6 @@
+polyphony=$poly_hh
+off_time=$otm_hh
+
+<group> #include "Data/region/Hihat_closed_whisker.txt"
+<group> #include "Data/region/Hihat_foot.txt"
+<group> #include "Data/region/Hihat_open_whisker.txt"

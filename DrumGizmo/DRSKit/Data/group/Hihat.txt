@@ -1,0 +1,9 @@
+polyphony=$poly_hh
+off_time=$otm_hh
+
+<group> #include "Data/region/Hihat_closed_shank.txt"
+<group> #include "Data/region/Hihat_foot.txt"
+<group> #include "Data/region/Hihat_semi_open.txt"
+<group> #include "Data/region/Hihat_closed.txt"
+<group> #include "Data/region/Hihat_open.txt"
+<group> #include "Data/region/Hihat_open_tip.txt"

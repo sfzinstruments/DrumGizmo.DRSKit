@@ -1,0 +1,20 @@
+#define $instr Snare_rest
+group_label=$instr
+group=$grp_sm
+off_by=$grp_sn
+off_time=$otm_sm
+polyphony=1
+key=$key_sn_rst
+
+<region> lovel=$v41l hivel=$v41h amp_velcurve_$v41h=1 region_label=1 sample=$instr/1-$instr-$mic.$ext seq_length=2 seq_position=1
+<region> lovel=$v41l hivel=$v41h amp_velcurve_$v41h=1 region_label=2 sample=$instr/2-$instr-$mic.$ext seq_length=2 seq_position=2
+
+<region> lovel=$v42l hivel=$v42h amp_velcurve_$v42h=1 region_label=3 sample=$instr/3-$instr-$mic.$ext seq_length=2 seq_position=1
+<region> lovel=$v42l hivel=$v42h amp_velcurve_$v42h=1 region_label=4 sample=$instr/4-$instr-$mic.$ext seq_length=2 seq_position=2
+
+<region> lovel=$v43l hivel=$v43h amp_velcurve_$v43h=1 region_label=5 sample=$instr/5-$instr-$mic.$ext seq_length=2 seq_position=1
+<region> lovel=$v43l hivel=$v43h amp_velcurve_$v43h=1 region_label=6 sample=$instr/6-$instr-$mic.$ext seq_length=2 seq_position=2
+
+<region> lovel=$v44l hivel=$v44h amp_velcurve_$v44h=1 region_label=7 sample=$instr/7-$instr-$mic.$ext seq_length=3 seq_position=1
+<region> lovel=$v44l hivel=$v44h amp_velcurve_$v44h=1 region_label=8 sample=$instr/8-$instr-$mic.$ext seq_length=3 seq_position=2
+<region> lovel=$v44l hivel=$v44h amp_velcurve_$v44h=1 region_label=9 sample=$instr/9-$instr-$mic.$ext seq_length=3 seq_position=3

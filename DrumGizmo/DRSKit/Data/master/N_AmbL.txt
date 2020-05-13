@@ -1,0 +1,71 @@
+#define $mic AmbL
+
+#define $grp_kd 1
+#define $grp_sn 2
+#define $grp_sm 3
+#define $grp_t1 4
+#define $grp_t2 5
+#define $grp_t3 6
+#define $grp_hh_c 7
+#define $grp_hh_so 8
+#define $grp_hh_op 9
+#define $grp_rd_tip 10
+#define $grp_rd_sbl 11
+#define $grp_rd_rst 12
+#define $grp_rd_shk 13
+#define $grp_rd_tbl 14
+#define $grp_rd_tbc 15
+#define $grp_rd_tch 16
+#define $grp_cl_shk 17
+#define $grp_cl_tip 18
+#define $grp_cr_shk 19
+#define $grp_cr_tip 20
+
+#define $otm_kd 1.7
+#define $otm_sn 1.7
+#define $otm_sm 0.4
+#define $otm_t1 2.2
+#define $otm_t2 2.71
+#define $otm_t3 3.21
+#define $otm_hh 0.4
+#define $otm_rd 1.71
+#define $otm_cl 1.6
+#define $otm_cr 1.61
+
+//------------------------------------------------------------
+
+<master>
+amplitude_oncc$AmbL_kd=$range_level
+#include "Data/group/Kdrum.txt"
+
+<master>
+amplitude_oncc$AmbL_sn=$range_level
+#include "Data/group/Snare.txt"
+
+<master>
+amplitude_oncc$AmbL_t1=$range_level
+#include "Data/group/Tom1.txt"
+
+<master>
+amplitude_oncc$AmbL_t2=$range_level
+#include "Data/group/Tom2.txt"
+
+<master>
+amplitude_oncc$AmbL_t3=$range_level
+#include "Data/group/Tom3.txt"
+
+<master>
+amplitude_oncc$AmbL_hh=$range_level
+#include "Data/group/Hihat.txt"
+
+<master>
+amplitude_oncc$AmbL_rd=$range_level
+#include "Data/group/Ride.txt"
+
+<master>
+amplitude_oncc$AmbL_cl=$range_level
+#include "Data/group/Crash_left.txt"
+
+<master>
+amplitude_oncc$AmbL_cr=$range_level
+#include "Data/group/Crash_right.txt"

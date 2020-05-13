@@ -1,0 +1,57 @@
+#define $key_kd_nc 35
+#define $key_kd_wc 36
+
+#define $key_sn_hit 38
+#define $key_sn_rst 40
+#define $key_sn_rim 37
+
+#define $key_t1 47
+#define $key_t2 43
+#define $key_t3 41
+
+#define $key_hh_cs 42
+#define $key_hh_ft 44
+#define $key_hh_so 46
+#define $key_hh_cl 56
+#define $key_hh_op 58
+#define $key_hh_ot 61
+
+#define $key_rd_tip 51
+#define $key_rd_sbl 53
+#define $key_rd_rst 63
+#define $key_rd_shk 66
+#define $key_rd_tbl 68
+#define $key_rd_tbc 70
+#define $key_rd_tch 73
+
+#define $key_cl_shk 49
+#define $key_cl_tip 54
+
+#define $key_cr_shk 57
+#define $key_cr_tip 55
+
+//--------------------------------------------
+//whisker keys
+
+#define $key_w_sn_crc 69
+#define $key_w_sn_hit 71
+
+#define $key_w_t1 72
+#define $key_w_t2 74
+#define $key_w_t3 76
+
+#define $key_w_hh_cl 64
+#define $key_w_hh_op 65
+
+#define $key_w_rd 67
+
+#define $key_w_cl 60
+
+#define $key_w_cr 62
+
+//--------------------------------------------
+//added cymbal choke keys
+
+#define $chk_rd 84
+#define $chk_cl 85
+#define $chk_cr 86

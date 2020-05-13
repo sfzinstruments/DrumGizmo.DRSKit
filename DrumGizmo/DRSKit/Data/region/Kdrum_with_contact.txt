@@ -1,0 +1,32 @@
+#define $instr Kdrum_with_contact
+group_label=$instr
+group=$grp_kd
+key=$key_kd_wc
+
+<region> lovel=$v61l hivel=$v61h amp_velcurve_$v61h=1 region_label=1 sample=$instr/1-$instr-$mic.$ext seq_length=3 seq_position=1 volume=16 ampeg_attack=0.0005
+<region> lovel=$v61l hivel=$v61h amp_velcurve_$v61h=1 region_label=2 sample=$instr/2-$instr-$mic.$ext seq_length=3 seq_position=2
+<region> lovel=$v61l hivel=$v61h amp_velcurve_$v61h=1 region_label=3 sample=$instr/3-$instr-$mic.$ext seq_length=3 seq_position=3
+
+<region> lovel=$v62l hivel=$v62h amp_velcurve_$v62h=1 region_label=4 sample=$instr/4-$instr-$mic.$ext seq_length=3 seq_position=1
+<region> lovel=$v62l hivel=$v62h amp_velcurve_$v62h=1 region_label=5 sample=$instr/5-$instr-$mic.$ext seq_length=3 seq_position=2
+<region> lovel=$v62l hivel=$v62h amp_velcurve_$v62h=1 region_label=6 sample=$instr/6-$instr-$mic.$ext seq_length=3 seq_position=3
+
+<region> lovel=$v63l hivel=$v63h amp_velcurve_$v63h=1 region_label=7 sample=$instr/7-$instr-$mic.$ext seq_length=4 seq_position=1
+<region> lovel=$v63l hivel=$v63h amp_velcurve_$v63h=1 region_label=8 sample=$instr/8-$instr-$mic.$ext seq_length=4 seq_position=2
+<region> lovel=$v63l hivel=$v63h amp_velcurve_$v63h=1 region_label=9 sample=$instr/9-$instr-$mic.$ext seq_length=4 seq_position=3
+<region> lovel=$v63l hivel=$v63h amp_velcurve_$v63h=1 region_label=10 sample=$instr/10-$instr-$mic.$ext seq_length=4 seq_position=4
+
+<region> lovel=$v64l hivel=$v64h amp_velcurve_$v64h=1 region_label=11 sample=$instr/11-$instr-$mic.$ext seq_length=4 seq_position=1
+<region> lovel=$v64l hivel=$v64h amp_velcurve_$v64h=1 region_label=12 sample=$instr/12-$instr-$mic.$ext seq_length=4 seq_position=2
+<region> lovel=$v64l hivel=$v64h amp_velcurve_$v64h=1 region_label=13 sample=$instr/13-$instr-$mic.$ext seq_length=4 seq_position=3
+<region> lovel=$v64l hivel=$v64h amp_velcurve_$v64h=1 region_label=14 sample=$instr/14-$instr-$mic.$ext seq_length=4 seq_position=4
+
+<region> lovel=$v65l hivel=$v65h amp_velcurve_$v65h=1 region_label=15 sample=$instr/15-$instr-$mic.$ext seq_length=4 seq_position=1
+<region> lovel=$v65l hivel=$v65h amp_velcurve_$v65h=1 region_label=16 sample=$instr/16-$instr-$mic.$ext seq_length=4 seq_position=2
+<region> lovel=$v65l hivel=$v65h amp_velcurve_$v65h=1 region_label=17 sample=$instr/17-$instr-$mic.$ext seq_length=4 seq_position=3
+<region> lovel=$v65l hivel=$v65h amp_velcurve_$v65h=1 region_label=18 sample=$instr/18-$instr-$mic.$ext seq_length=4 seq_position=4
+
+<region> lovel=$v66l hivel=$v66h amp_velcurve_$v66h=1 region_label=19 sample=$instr/19-$instr-$mic.$ext seq_length=4 seq_position=1
+<region> lovel=$v66l hivel=$v66h amp_velcurve_$v66h=1 region_label=20 sample=$instr/20-$instr-$mic.$ext seq_length=4 seq_position=2
+<region> lovel=$v66l hivel=$v66h amp_velcurve_$v66h=1 region_label=21 sample=$instr/21-$instr-$mic.$ext seq_length=4 seq_position=3
+<region> lovel=$v66l hivel=$v66h amp_velcurve_$v66h=1 region_label=22 sample=$instr/22-$instr-$mic.$ext seq_length=4 seq_position=4

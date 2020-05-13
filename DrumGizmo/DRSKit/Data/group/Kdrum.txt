@@ -1,0 +1,5 @@
+polyphony=$poly_drm
+off_time=$otm_kd
+
+<group> #include "Data/region/Kdrum_without_contact.txt"
+<group> #include "Data/region/Kdrum_with_contact.txt"

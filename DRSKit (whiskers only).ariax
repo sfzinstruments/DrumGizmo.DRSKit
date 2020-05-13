@@ -1,0 +1,240 @@
+<?xml version="1.0" ?>
+<AriaSave version="1816" productID="1012">
+    <Settings quality="1" streaming="32" maxStreamAllocMB="512" MIDIOutMode="1" automationSlot="0" automationlevel="instrument" liveMode="0" sc="1" scala="01 - equal.scl" scalaCenter="60" globalTuning="0" />
+    <Slot id="0" name="DrumGizmo/DRSKit/W-Ambience left" bankId="5000" version="0" channel="-1" poly="128" tuning="0" pb_range="-1" ptrans="0" mtrans="0" moctave="0" sc="1" mute="0">
+        <Main id="0" value="1" />
+        <Main id="1" value="0" />
+        <Main id="2" value="0" />
+        <Main id="3" value="0" />
+        <Main id="4" value="0" />
+        <Main id="5" value="0" />
+        <Main id="6" value="0" />
+        <Main id="7" value="0" />
+        <Main id="8" value="0" />
+        <Main id="9" value="0" />
+        <Main id="10" value="0" />
+        <Main id="11" value="0" />
+        <Main id="12" value="0" />
+        <Main id="13" value="0" />
+        <Main id="14" value="0" />
+        <Main id="15" value="0" />
+    </Slot>
+    <Slot id="1" name="DrumGizmo/DRSKit/W-Ambience right" bankId="5000" version="0" channel="-1" poly="128" tuning="0" pb_range="-1" ptrans="0" mtrans="0" moctave="0" sc="1" mute="0">
+        <Main id="0" value="0" />
+        <Main id="1" value="1" />
+        <Main id="2" value="0" />
+        <Main id="3" value="0" />
+        <Main id="4" value="0" />
+        <Main id="5" value="0" />
+        <Main id="6" value="0" />
+        <Main id="7" value="0" />
+        <Main id="8" value="0" />
+        <Main id="9" value="0" />
+        <Main id="10" value="0" />
+        <Main id="11" value="0" />
+        <Main id="12" value="0" />
+        <Main id="13" value="0" />
+        <Main id="14" value="0" />
+        <Main id="15" value="0" />
+    </Slot>
+    <Slot id="2" name="DrumGizmo/DRSKit/W-Kickdrum back" bankId="5000" version="0" channel="-1" poly="128" tuning="0" pb_range="-1" ptrans="0" mtrans="0" moctave="0" sc="1" mute="0">
+        <Main id="0" value="0" />
+        <Main id="1" value="0" />
+        <Main id="2" value="1" />
+        <Main id="3" value="0" />
+        <Main id="4" value="0" />
+        <Main id="5" value="0" />
+        <Main id="6" value="0" />
+        <Main id="7" value="0" />
+        <Main id="8" value="0" />
+        <Main id="9" value="0" />
+        <Main id="10" value="0" />
+        <Main id="11" value="0" />
+        <Main id="12" value="0" />
+        <Main id="13" value="0" />
+        <Main id="14" value="0" />
+        <Main id="15" value="0" />
+    </Slot>
+    <Slot id="3" name="DrumGizmo/DRSKit/W-Kickdrum front" bankId="5000" version="0" channel="-1" poly="128" tuning="0" pb_range="-1" ptrans="0" mtrans="0" moctave="0" sc="1" mute="0">
+        <Main id="0" value="0" />
+        <Main id="1" value="0" />
+        <Main id="2" value="0" />
+        <Main id="3" value="1" />
+        <Main id="4" value="0" />
+        <Main id="5" value="0" />
+        <Main id="6" value="0" />
+        <Main id="7" value="0" />
+        <Main id="8" value="0" />
+        <Main id="9" value="0" />
+        <Main id="10" value="0" />
+        <Main id="11" value="0" />
+        <Main id="12" value="0" />
+        <Main id="13" value="0" />
+        <Main id="14" value="0" />
+        <Main id="15" value="0" />
+    </Slot>
+    <Slot id="4" name="DrumGizmo/DRSKit/W-Hihat" bankId="5000" version="0" channel="-1" poly="128" tuning="0" pb_range="-1" ptrans="0" mtrans="0" moctave="0" sc="1" mute="0">
+        <Main id="0" value="0" />
+        <Main id="1" value="0" />
+        <Main id="2" value="0" />
+        <Main id="3" value="0" />
+        <Main id="4" value="1" />
+        <Main id="5" value="0" />
+        <Main id="6" value="0" />
+        <Main id="7" value="0" />
+        <Main id="8" value="0" />
+        <Main id="9" value="0" />
+        <Main id="10" value="0" />
+        <Main id="11" value="0" />
+        <Main id="12" value="0" />
+        <Main id="13" value="0" />
+        <Main id="14" value="0" />
+        <Main id="15" value="0" />
+    </Slot>
+    <Slot id="5" name="DrumGizmo/DRSKit/W-Overhead left" bankId="5000" version="0" channel="-1" poly="128" tuning="0" pb_range="-1" ptrans="0" mtrans="0" moctave="0" sc="1" mute="0">
+        <Main id="0" value="0" />
+        <Main id="1" value="0" />
+        <Main id="2" value="0" />
+        <Main id="3" value="0" />
+        <Main id="4" value="0" />
+        <Main id="5" value="1" />
+        <Main id="6" value="0" />
+        <Main id="7" value="0" />
+        <Main id="8" value="0" />
+        <Main id="9" value="0" />
+        <Main id="10" value="0" />
+        <Main id="11" value="0" />
+        <Main id="12" value="0" />
+        <Main id="13" value="0" />
+        <Main id="14" value="0" />
+        <Main id="15" value="0" />
+    </Slot>
+    <Slot id="6" name="DrumGizmo/DRSKit/W-Overhead right" bankId="5000" version="0" channel="-1" poly="128" tuning="0" pb_range="-1" ptrans="0" mtrans="0" moctave="0" sc="1" mute="0">
+        <Main id="0" value="0" />
+        <Main id="1" value="0" />
+        <Main id="2" value="0" />
+        <Main id="3" value="0" />
+        <Main id="4" value="0" />
+        <Main id="5" value="0" />
+        <Main id="6" value="1" />
+        <Main id="7" value="0" />
+        <Main id="8" value="0" />
+        <Main id="9" value="0" />
+        <Main id="10" value="0" />
+        <Main id="11" value="0" />
+        <Main id="12" value="0" />
+        <Main id="13" value="0" />
+        <Main id="14" value="0" />
+        <Main id="15" value="0" />
+    </Slot>
+    <Slot id="7" name="DrumGizmo/DRSKit/W-Ride cymbal" bankId="5000" version="0" channel="-1" poly="128" tuning="0" pb_range="-1" ptrans="0" mtrans="0" moctave="0" sc="1" mute="0">
+        <Main id="0" value="0" />
+        <Main id="1" value="0" />
+        <Main id="2" value="0" />
+        <Main id="3" value="0" />
+        <Main id="4" value="0" />
+        <Main id="5" value="0" />
+        <Main id="6" value="0" />
+        <Main id="7" value="1" />
+        <Main id="8" value="0" />
+        <Main id="9" value="0" />
+        <Main id="10" value="0" />
+        <Main id="11" value="0" />
+        <Main id="12" value="0" />
+        <Main id="13" value="0" />
+        <Main id="14" value="0" />
+        <Main id="15" value="0" />
+    </Slot>
+    <Slot id="8" name="DrumGizmo/DRSKit/W-Snaredrum bottom" bankId="5000" version="0" channel="-1" poly="128" tuning="0" pb_range="-1" ptrans="0" mtrans="0" moctave="0" sc="1" mute="0">
+        <Main id="0" value="0" />
+        <Main id="1" value="0" />
+        <Main id="2" value="0" />
+        <Main id="3" value="0" />
+        <Main id="4" value="0" />
+        <Main id="5" value="0" />
+        <Main id="6" value="0" />
+        <Main id="7" value="0" />
+        <Main id="8" value="1" />
+        <Main id="9" value="0" />
+        <Main id="10" value="0" />
+        <Main id="11" value="0" />
+        <Main id="12" value="0" />
+        <Main id="13" value="0" />
+        <Main id="14" value="0" />
+        <Main id="15" value="0" />
+    </Slot>
+    <Slot id="9" name="DrumGizmo/DRSKit/W-Snaredrum top" bankId="5000" version="0" channel="-1" poly="128" tuning="0" pb_range="-1" ptrans="0" mtrans="0" moctave="0" sc="1" mute="0">
+        <Main id="0" value="0" />
+        <Main id="1" value="0" />
+        <Main id="2" value="0" />
+        <Main id="3" value="0" />
+        <Main id="4" value="0" />
+        <Main id="5" value="0" />
+        <Main id="6" value="0" />
+        <Main id="7" value="0" />
+        <Main id="8" value="0" />
+        <Main id="9" value="1" />
+        <Main id="10" value="0" />
+        <Main id="11" value="0" />
+        <Main id="12" value="0" />
+        <Main id="13" value="0" />
+        <Main id="14" value="0" />
+        <Main id="15" value="0" />
+    </Slot>
+    <Slot id="10" name="DrumGizmo/DRSKit/W-Tom1" bankId="5000" version="0" channel="-1" poly="128" tuning="0" pb_range="-1" ptrans="0" mtrans="0" moctave="0" sc="1" mute="0">
+        <Main id="0" value="0" />
+        <Main id="1" value="0" />
+        <Main id="2" value="0" />
+        <Main id="3" value="0" />
+        <Main id="4" value="0" />
+        <Main id="5" value="0" />
+        <Main id="6" value="0" />
+        <Main id="7" value="0" />
+        <Main id="8" value="0" />
+        <Main id="9" value="0" />
+        <Main id="10" value="1" />
+        <Main id="11" value="0" />
+        <Main id="12" value="0" />
+        <Main id="13" value="0" />
+        <Main id="14" value="0" />
+        <Main id="15" value="0" />
+    </Slot>
+    <Slot id="11" name="DrumGizmo/DRSKit/W-Tom2 (Floor tom)" bankId="5000" version="0" channel="-1" poly="128" tuning="0" pb_range="-1" ptrans="0" mtrans="0" moctave="0" sc="1" mute="0">
+        <Main id="0" value="0" />
+        <Main id="1" value="0" />
+        <Main id="2" value="0" />
+        <Main id="3" value="0" />
+        <Main id="4" value="0" />
+        <Main id="5" value="0" />
+        <Main id="6" value="0" />
+        <Main id="7" value="0" />
+        <Main id="8" value="0" />
+        <Main id="9" value="0" />
+        <Main id="10" value="0" />
+        <Main id="11" value="1" />
+        <Main id="12" value="0" />
+        <Main id="13" value="0" />
+        <Main id="14" value="0" />
+        <Main id="15" value="0" />
+    </Slot>
+    <Slot id="12" name="DrumGizmo/DRSKit/W-Tom3 (Floor tom)" bankId="5000" version="0" channel="-1" poly="128" tuning="0" pb_range="-1" ptrans="0" mtrans="0" moctave="0" sc="1" mute="0">
+        <Main id="0" value="0" />
+        <Main id="1" value="0" />
+        <Main id="2" value="0" />
+        <Main id="3" value="0" />
+        <Main id="4" value="0" />
+        <Main id="5" value="0" />
+        <Main id="6" value="0" />
+        <Main id="7" value="0" />
+        <Main id="8" value="0" />
+        <Main id="9" value="0" />
+        <Main id="10" value="0" />
+        <Main id="11" value="0" />
+        <Main id="12" value="1" />
+        <Main id="13" value="0" />
+        <Main id="14" value="0" />
+        <Main id="15" value="0" />
+    </Slot>
+    <EffectSlot id="0" sc="1" name="Conv+Amb" bankId="1012" version="1846" />
+    <GUI id="0" activeISlot="0" activeESlot="0" selectedTab="-1" />
+</AriaSave>

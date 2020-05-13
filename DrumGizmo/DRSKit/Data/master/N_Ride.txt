@@ -1,0 +1,78 @@
+#define $mic Ride
+
+#define $grp_kd 141
+#define $grp_sn 142
+#define $grp_sm 143
+#define $grp_t1 144
+#define $grp_t2 145
+#define $grp_t3 146
+#define $grp_hh_c 147
+#define $grp_hh_so 148
+#define $grp_hh_op 149
+#define $grp_rd_tip 150
+#define $grp_rd_sbl 151
+#define $grp_rd_rst 152
+#define $grp_rd_shk 153
+#define $grp_rd_tbl 154
+#define $grp_rd_tbc 155
+#define $grp_rd_tch 156
+#define $grp_cl_shk 157
+#define $grp_cl_tip 158
+#define $grp_cr_shk 159
+#define $grp_cr_tip 160
+
+#define $otm_kd 1.57
+#define $otm_sn 1.56
+#define $otm_sm 0.26
+#define $otm_t1 2.05
+#define $otm_t2 2.52
+#define $otm_t3 3.02
+#define $otm_hh 0.25
+#define $otm_rd 1.5
+#define $otm_cl 1.45
+#define $otm_cr 1.41
+
+//------------------------------------------------------------
+
+<master>
+amplitude_oncc$Ride_kd=$range_bleed
+amplitude_oncc$Ride_all=$range_bleed
+#include "Data/group/Kdrum.txt"
+
+<master>
+amplitude_oncc$Ride_sn=$range_bleed
+amplitude_oncc$Ride_all=$range_bleed
+#include "Data/group/Snare.txt"
+
+<master>
+amplitude_oncc$Ride_t1=$range_bleed
+amplitude_oncc$Ride_all=$range_bleed
+#include "Data/group/Tom1.txt"
+
+<master>
+amplitude_oncc$Ride_t2=$range_bleed
+amplitude_oncc$Ride_all=$range_bleed
+#include "Data/group/Tom2.txt"
+
+<master>
+amplitude_oncc$Ride_t3=$range_bleed
+amplitude_oncc$Ride_all=$range_bleed
+#include "Data/group/Tom3.txt"
+
+<master>
+amplitude_oncc$Ride_hh=$range_bleed
+amplitude_oncc$Ride_all=$range_bleed
+#include "Data/group/Hihat.txt"
+
+<master>
+#include "Data/group/Ride.txt"
+
+<master>
+amplitude_oncc$Ride_cl=$range_bleed
+amplitude_oncc$Ride_all=$range_bleed
+#include "Data/group/Crash_left.txt"
+
+<master>
+amplitude_oncc$Ride_cr=$range_bleed
+amplitude_oncc$Ride_all=$range_bleed
+#include "Data/group/Crash_right.txt"

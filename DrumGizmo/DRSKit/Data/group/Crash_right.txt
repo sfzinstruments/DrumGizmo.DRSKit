@@ -1,0 +1,13 @@
+polyphony=$poly_cym
+off_time=$otm_cr
+
+<group> #include "Data/region/Crash_right_shank.txt"
+<group> #include "Data/region/Crash_right_tip.txt"
+
+//--------------------------------------------
+
+<group>
+key=$chk_cr
+group=$off_cr
+group_label=Crash_right_choke
+<region> sample=*silence

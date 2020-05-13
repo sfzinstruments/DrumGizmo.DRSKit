@@ -1,0 +1,19 @@
+#define $instr Tom1_whisker
+group_label=$instr
+group=$grp_t1
+key=$key_w_t1
+
+<region> lovel=$v51l hivel=$v51h amp_velcurve_$v51h=1 region_label=1 sample=$instr/1-$instr-$mic.$ext seq_length=2 seq_position=1
+<region> lovel=$v51l hivel=$v51h amp_velcurve_$v51h=1 region_label=2 sample=$instr/2-$instr-$mic.$ext seq_length=2 seq_position=2
+
+<region> lovel=$v52l hivel=$v52h amp_velcurve_$v52h=1 region_label=3 sample=$instr/3-$instr-$mic.$ext seq_length=2 seq_position=1
+<region> lovel=$v52l hivel=$v52h amp_velcurve_$v52h=1 region_label=4 sample=$instr/4-$instr-$mic.$ext seq_length=2 seq_position=2
+
+<region> lovel=$v53l hivel=$v53h amp_velcurve_$v53h=1 region_label=5 sample=$instr/5-$instr-$mic.$ext seq_length=2 seq_position=1
+<region> lovel=$v53l hivel=$v53h amp_velcurve_$v53h=1 region_label=6 sample=$instr/6-$instr-$mic.$ext seq_length=2 seq_position=2
+
+<region> lovel=$v54l hivel=$v54h amp_velcurve_$v54h=1 region_label=7 sample=$instr/7-$instr-$mic.$ext seq_length=2 seq_position=1
+<region> lovel=$v54l hivel=$v54h amp_velcurve_$v54h=1 region_label=8 sample=$instr/8-$instr-$mic.$ext seq_length=2 seq_position=2
+
+<region> lovel=$v55l hivel=$v55h amp_velcurve_$v55h=1 region_label=9 sample=$instr/9-$instr-$mic.$ext seq_length=2 seq_position=1
+<region> lovel=$v55l hivel=$v55h amp_velcurve_$v55h=1 region_label=10 sample=$instr/10-$instr-$mic.$ext seq_length=2 seq_position=2

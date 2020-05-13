@@ -1,0 +1,4 @@
+<global>
+loop_mode=one_shot
+amp_veltrack=$veltrack
+off_mode=time

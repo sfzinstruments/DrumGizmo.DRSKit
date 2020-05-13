@@ -1,0 +1,212 @@
+#define $sample_dir Samples
+#define $ext flac
+
+//--------------------------------------------
+//labels
+
+#define $label_kd Kdrum
+#define $label_sn Snare
+#define $label_t1 Tom1
+#define $label_t2 Tom2
+#define $label_t3 Tom3
+#define $label_hh Hihat
+#define $label_rd Ride
+#define $label_cl CrashL
+#define $label_cr CrashR
+
+#define $label_all ALL
+#define $label_drm Drums
+#define $label_cym Cymbals
+
+//--------------------------------------------
+//off group shared id
+
+#define $off_hh_so 300
+#define $off_hh_op 301
+#define $off_rd 302
+#define $off_cl 303
+#define $off_cr 304
+
+//--------------------------------------------
+//polyphony per kitpiece
+
+#define $poly_drm 2
+#define $poly_hh 3
+#define $poly_cym 4
+
+//--------------------------------------------
+//range-default
+
+#define $veltrack 99
+#define $range_bleed 100
+#define $range_level 200
+
+#define $set_full 1
+#define $set_def 0.5
+
+//--------------------------------------------
+//cc
+
+#define $AmbL_kd 200
+#define $AmbL_sn 201
+#define $AmbL_t1 202
+#define $AmbL_t2 203
+#define $AmbL_t3 204
+#define $AmbL_hh 205
+#define $AmbL_rd 206
+#define $AmbL_cl 207
+#define $AmbL_cr 208
+
+#define $AmbR_kd 209
+#define $AmbR_sn 210
+#define $AmbR_t1 211
+#define $AmbR_t2 212
+#define $AmbR_t3 213
+#define $AmbR_hh 214
+#define $AmbR_rd 215
+#define $AmbR_cl 216
+#define $AmbR_cr 217
+
+#define $Kdrum_back_sn 218
+#define $Kdrum_back_t1 219
+#define $Kdrum_back_t2 220
+#define $Kdrum_back_t3 221
+#define $Kdrum_back_hh 222
+#define $Kdrum_back_rd 223
+#define $Kdrum_back_cl 224
+#define $Kdrum_back_cr 225
+
+#define $Kdrum_front_sn 226
+#define $Kdrum_front_t1 227
+#define $Kdrum_front_t2 228
+#define $Kdrum_front_t3 229
+#define $Kdrum_front_hh 230
+#define $Kdrum_front_rd 231
+#define $Kdrum_front_cl 232
+#define $Kdrum_front_cr 233
+
+#define $Hihat_kd 234
+#define $Hihat_sn 235
+#define $Hihat_t1 236
+#define $Hihat_t2 237
+#define $Hihat_t3 238
+#define $Hihat_rd 239
+#define $Hihat_cl 240
+#define $Hihat_cr 241
+
+#define $OHL_kd 242
+#define $OHL_sn 243
+#define $OHL_t1 244
+#define $OHL_t2 245
+#define $OHL_t3 246
+#define $OHL_hh 247
+#define $OHL_rd 248
+#define $OHL_cl 249
+#define $OHL_cr 250
+
+#define $OHR_kd 251
+#define $OHR_sn 252
+#define $OHR_t1 253
+#define $OHR_t2 254
+#define $OHR_t3 255
+#define $OHR_hh 256
+#define $OHR_rd 257
+#define $OHR_cl 258
+#define $OHR_cr 259
+
+#define $Ride_kd 260
+#define $Ride_sn 261
+#define $Ride_t1 262
+#define $Ride_t2 263
+#define $Ride_t3 264
+#define $Ride_hh 265
+#define $Ride_cl 266
+#define $Ride_cr 267
+
+#define $Snare_bottom_kd 268
+#define $Snare_bottom_t1 269
+#define $Snare_bottom_t2 270
+#define $Snare_bottom_t3 271
+#define $Snare_bottom_hh 272
+#define $Snare_bottom_rd 273
+#define $Snare_bottom_cl 274
+#define $Snare_bottom_cr 275
+
+#define $Snare_top_kd 276
+#define $Snare_top_t1 277
+#define $Snare_top_t2 278
+#define $Snare_top_t3 279
+#define $Snare_top_hh 280
+#define $Snare_top_rd 281
+#define $Snare_top_cl 282
+#define $Snare_top_cr 283
+
+#define $Tom1_kd 284
+#define $Tom1_sn 285
+#define $Tom1_t2 286
+#define $Tom1_t3 287
+#define $Tom1_hh 288
+#define $Tom1_rd 289
+#define $Tom1_cl 290
+#define $Tom1_cr 291
+
+#define $Tom2_kd 292
+#define $Tom2_sn 293
+#define $Tom2_t1 294
+#define $Tom2_t3 295
+#define $Tom2_hh 296
+#define $Tom2_rd 297
+#define $Tom2_cl 298
+#define $Tom2_cr 299
+
+#define $Tom3_kd 300
+#define $Tom3_sn 301
+#define $Tom3_t1 302
+#define $Tom3_t2 303
+#define $Tom3_hh 304
+#define $Tom3_rd 305
+#define $Tom3_cl 306
+#define $Tom3_cr 307
+//------------------------------
+#define $Kdrum_back_all 308
+#define $Kdrum_front_all 309
+#define $Hihat_all 310
+#define $Ride_all 311
+#define $Snare_bottom_drm 312
+#define $Snare_bottom_cym 313
+#define $Snare_top_all 314
+#define $Tom1_all 315
+#define $Tom2_all 316
+#define $Tom3_all 317
+
+//--------------------------------------------
+//velocity
+
+#define $v11l 1        #define $v11h 127
+
+#define $v41l 1        #define $v41h 31
+#define $v42l 32      #define $v42h 63
+#define $v43l 64      #define $v43h 95
+#define $v44l 96      #define $v44h 127
+
+#define $v51l 1        #define $v51h 25
+#define $v52l 26      #define $v52h 50
+#define $v53l 51      #define $v53h 76
+#define $v54l 77      #define $v54h 101
+#define $v55l 102    #define $v55h 127
+
+#define $v61l 1        #define $v61h 21
+#define $v62l 22      #define $v62h 42
+#define $v63l 43      #define $v63h 63
+#define $v64l 64      #define $v64h 84
+#define $v65l 85      #define $v65h 105
+#define $v66l 106    #define $v66h 127
+
+#define $v81l 1        #define $v81h 15
+#define $v82l 16      #define $v82h 31
+#define $v83l 32      #define $v83h 47
+#define $v84l 48      #define $v84h 63
+#define $v85l 64      #define $v85h 79
+#define $v86l 80      #define $v86h 95
+#define $v87l 96      #define $v87h 111
+#define $v88l 112    #define $v88h 127

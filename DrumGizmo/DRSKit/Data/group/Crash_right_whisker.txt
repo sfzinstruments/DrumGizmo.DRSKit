@@ -1,0 +1,12 @@
+polyphony=$poly_cym
+off_time=$otm_cr
+
+<group> #include "Data/region/Crash_right_whisker.txt"
+
+//--------------------------------------------
+
+<group>
+key=$chk_cr
+group=$off_cr
+group_label=Crash_right_choke
+<region> sample=*silence
