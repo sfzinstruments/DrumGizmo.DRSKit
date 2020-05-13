@@ -53,9 +53,9 @@ off the stuff you use it for.
 ## Installation
 
 For the ARIA Player multi (.ariax) files to work properly, you need to place
-the "DrumGizmo" folder into your ARIA  bank directory:
+the "DrumGizmo" folder into your ARIA Player / Sforzando `User files path` directory:
 
-`\[your ARIA bank directory\]\DrumGizmo\DRSKit\`
+`\[User files path\]\DrumGizmo\DRSKit\`
 
 then you can load the `ariax` files or just drag'n drop it to ARIA Player GUI.
 
