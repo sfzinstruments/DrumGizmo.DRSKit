@@ -1,4 +1,4 @@
-polyphony=$poly_drm
+note_polyphony=$poly_drm
 off_time=$otm_t2
 
 <group> #include "Data/region/Tom2_whisker.txt"
