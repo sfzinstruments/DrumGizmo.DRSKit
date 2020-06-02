@@ -1,4 +1,4 @@
-polyphony=$poly_cym
+note_polyphony=$poly_cym
 off_time=$otm_rd
 
 <group> #include "Data/region/Ride_whisker.txt"
