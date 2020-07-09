@@ -1,5 +1,38 @@
-#define $sample_dir Samples
+#define $sample_dir ../Samples
 #define $ext flac
+
+//hh-kd cc
+#define $ped 4
+#define $con 67
+
+//--------------------------------------------
+//stereo cc
+
+#define $vol_kf 70
+#define $vol_kb 71
+#define $vol_st 72
+#define $vol_sb 73
+#define $vol_t1 74
+#define $vol_t2 75
+#define $vol_t3 76
+#define $vol_hh 77
+#define $vol_rd 78
+
+#define $pan_kd 79
+#define $pan_sn 80
+#define $pan_t1 81
+#define $pan_t2 82
+#define $pan_t3 83
+#define $pan_hh 84
+#define $pan_rd 85
+
+#define $wid_oh 86
+#define $wid_am 87
+#define $bleed_bot 88
+#define $bleed_all 89
+#define $vol_cm 90
+#define $vol_oh 91
+#define $vol_am 92
 
 //--------------------------------------------
 //labels
@@ -18,21 +51,20 @@
 #define $label_drm Drums
 #define $label_cym Cymbals
 
-//--------------------------------------------
-//off group shared id
-
-#define $off_hh_so 300
-#define $off_hh_op 301
-#define $off_rd 302
-#define $off_cl 303
-#define $off_cr 304
-
-//--------------------------------------------
-//polyphony per kitpiece
-
-#define $poly_drm 2
-#define $poly_hh 3
-#define $poly_cym 4
+#define $label_ped Pedal
+#define $label_con Contact
+#define $label_front Front
+#define $label_back Back
+#define $label_top Top
+#define $label_bot Bottom
+#define $label_pan Pan
+#define $label_wid Width
+#define $label_bleed Bleed
+#define $label_cm CloseMics
+#define $label_oh Overhead
+#define $label_am Ambience
+#define $label_notes Notes
+#define $label_edrums E-Drums
 
 //--------------------------------------------
 //range-default
@@ -40,12 +72,13 @@
 #define $veltrack 99
 #define $range_bleed 100
 #define $range_level 200
+#define $range_pan 100
 
 #define $set_full 1
 #define $set_def 0.5
 
 //--------------------------------------------
-//cc
+//multi cc
 
 #define $AmbL_kd 200
 #define $AmbL_sn 201
@@ -180,6 +213,21 @@
 #define $Tom3_all 317
 
 //--------------------------------------------
+//off group shared id
+
+#define $off_hh_so 300
+#define $off_hh_op 301
+#define $off_rd 302
+#define $off_cl 303
+#define $off_cr 304
+
+//--------------------------------------------
+//note polyphony
+
+#define $poly_drm 2
+#define $poly_cym 4
+
+//--------------------------------------------
 //velocity
 
 #define $v11l 1        #define $v11h 127
@@ -210,3 +258,16 @@
 #define $v86l 80      #define $v86h 95
 #define $v87l 96      #define $v87h 111
 #define $v88l 112    #define $v88h 127
+
+//--------------------------------------------
+//variable hh
+
+#define $loped1 0        #define $hiped1 42
+#define $loped2 43      #define $hiped2 84
+#define $loped3 85      #define $hiped3 127
+
+//--------------------------------------------
+//control header
+
+<control>
+default_path=$sample_dir/

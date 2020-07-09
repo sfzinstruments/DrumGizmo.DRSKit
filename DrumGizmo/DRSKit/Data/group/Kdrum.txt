@@ -1,5 +1,19 @@
 note_polyphony=$poly_drm
 off_time=$otm_kd
 
-<group> #include "Data/region/Kdrum_without_contact.txt"
-<group> #include "Data/region/Kdrum_with_contact.txt"
+<group>
+key=$key_kd_nc
+#include "../Data/setting/sw_notes.txt"
+#include "../Data/region/Kdrum_without_contact.txt"
+
+//--------------------------------------------
+
+<group>
+key=$key_kd_wc
+hicc$con=0
+#include "../Data/region/Kdrum_with_contact.txt"
+
+<group>
+key=$key_kd_wc
+locc$con=1
+#include "../Data/region/Kdrum_without_contact.txt"

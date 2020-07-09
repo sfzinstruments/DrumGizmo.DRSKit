@@ -1,0 +1,26 @@
+//======DRSKit======
+//Author: Lars Muldjord / Bent Bisballe Nyeng
+//Homepage: www.drumgizmo.org
+//--------------------------------------------
+//ARIA SFZ Level 2.0 by kinwie
+//--------------------------------------------
+
+#include "../Data/keymap.txt"
+#include "../Data/macro.txt"
+#include "../Data/control/stereo.txt"
+#include "../Data/control/ped_con.txt"
+//--------------------------------------------
+
+#include "../Data/global.txt" #include "../Data/stereo/W_Kdrum_front.txt"
+#include "../Data/global.txt" #include "../Data/stereo/W_Kdrum_back.txt"
+#include "../Data/global.txt" #include "../Data/stereo/W_Snare_top.txt"
+#include "../Data/global.txt" #include "../Data/stereo/W_Snare_bottom.txt"
+#include "../Data/global.txt" #include "../Data/stereo/W_Tom1.txt"
+#include "../Data/global.txt" #include "../Data/stereo/W_Tom2.txt"
+#include "../Data/global.txt" #include "../Data/stereo/W_Tom3.txt"
+#include "../Data/global.txt" #include "../Data/stereo/W_Hihat.txt"
+#include "../Data/global.txt" #include "../Data/stereo/W_Ride.txt"
+#include "../Data/global.txt" #include "../Data/stereo/W_OHL.txt"
+#include "../Data/global.txt" #include "../Data/stereo/W_OHR.txt"
+#include "../Data/global.txt" #include "../Data/stereo/W_AmbL.txt"
+#include "../Data/global.txt" #include "../Data/stereo/W_AmbR.txt"

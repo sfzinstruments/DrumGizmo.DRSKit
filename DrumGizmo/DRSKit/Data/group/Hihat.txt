@@ -1,9 +1,73 @@
-note_polyphony=$poly_hh
+note_polyphony=$poly_cym
 off_time=$otm_hh
 
-<group> #include "Data/region/Hihat_closed_shank.txt"
-<group> #include "Data/region/Hihat_foot.txt"
-<group> #include "Data/region/Hihat_semi_open.txt"
-<group> #include "Data/region/Hihat_closed.txt"
-<group> #include "Data/region/Hihat_open.txt"
-<group> #include "Data/region/Hihat_open_tip.txt"
+<group>
+key=$key_hh_cs
+#include "../Data/setting/sw_notes.txt"
+#include "../Data/region/Hihat_closed_shank.txt"
+
+<group>
+key=$key_hh_so
+#include "../Data/setting/sw_notes.txt"
+#include "../Data/region/Hihat_semi_open.txt"
+
+<group>
+key=$key_hh_cl
+#include "../Data/setting/sw_notes.txt"
+#include "../Data/region/Hihat_closed.txt"
+
+<group>
+key=$key_hh_op
+#include "../Data/setting/sw_notes.txt"
+#include "../Data/region/Hihat_open.txt"
+
+<group>
+key=$key_hh_ot
+#include "../Data/setting/sw_notes.txt"
+#include "../Data/region/Hihat_open_tip.txt"
+
+//--------------------------------------------
+
+<group>
+key=$key_hh_bow
+locc$ped=$loped1
+hicc$ped=$hiped1
+#include "../Data/setting/sw_nowh.txt"
+#include "../Data/region/Hihat_open_tip.txt"
+
+<group>
+key=$key_hh_bow
+locc$ped=$loped2
+hicc$ped=$hiped2
+#include "../Data/setting/sw_nowh.txt"
+#include "../Data/region/Hihat_semi_open.txt"
+
+<group>
+key=$key_hh_bow
+locc$ped=$loped3
+hicc$ped=$hiped3
+#include "../Data/setting/sw_nowh.txt"
+#include "../Data/region/Hihat_closed.txt"
+
+//--------------------------------------------
+
+<group>
+key=$key_hh_edg
+locc$ped=$loped1
+hicc$ped=$hiped1
+#include "../Data/setting/sw_nowh.txt"
+#include "../Data/region/Hihat_open.txt"
+
+<group>
+key=$key_hh_edg
+locc$ped=$loped2
+hicc$ped=$hiped2
+#include "../Data/setting/sw_nowh.txt"
+#include "../Data/region/Hihat_semi_open.txt"
+
+<group>
+key=$key_hh_edg
+locc$ped=$loped3
+hicc$ped=$hiped3
+#include "../Data/setting/sw_nowh.txt"
+#include "../Data/region/Hihat_closed_shank.txt"

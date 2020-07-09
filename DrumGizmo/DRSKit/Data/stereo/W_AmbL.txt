@@ -1,0 +1,38 @@
+#include "../Data/mic/AmbL.txt"
+
+locc$vol_am=1
+amplitude_oncc$vol_am=$range_level
+pan_oncc$wid_am=-$range_pan
+volume_oncc$wid_am=-3
+volume_curvecc$wid_am=2
+
+//------------------------------------------------------------
+
+<master>
+#include "../Data/group/Kdrum.txt"
+
+<master>
+#include "../Data/group/Snare_whisker.txt"
+#include "../Data/group/Snare_rim.txt"
+
+<master>
+#include "../Data/group/Tom1_whisker.txt"
+
+<master>
+#include "../Data/group/Tom2_whisker.txt"
+
+<master>
+#include "../Data/group/Tom3_whisker.txt"
+
+<master>
+#include "../Data/group/Hihat_whisker.txt"
+#include "../Data/group/Hihat_foot.txt"
+
+<master>
+#include "../Data/group/Ride_whisker.txt"
+
+<master>
+#include "../Data/group/Crash_left_whisker.txt"
+
+<master>
+#include "../Data/group/Crash_right_whisker.txt"

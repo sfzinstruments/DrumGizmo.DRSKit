@@ -1,0 +1,50 @@
+#include "../Data/mic/AmbR.txt"
+
+//------------------------------------------------------------
+
+<master>
+locc$AmbR_kd=1
+amplitude_oncc$AmbR_kd=$range_level
+#include "../Data/group/Kdrum.txt"
+
+<master>
+locc$AmbR_sn=1
+amplitude_oncc$AmbR_sn=$range_level
+#include "../Data/group/Snare.txt"
+#include "../Data/group/Snare_rim.txt"
+
+<master>
+locc$AmbR_t1=1
+amplitude_oncc$AmbR_t1=$range_level
+#include "../Data/group/Tom1.txt"
+
+<master>
+locc$AmbR_t2=1
+amplitude_oncc$AmbR_t2=$range_level
+#include "../Data/group/Tom2.txt"
+
+<master>
+locc$AmbR_t3=1
+amplitude_oncc$AmbR_t3=$range_level
+#include "../Data/group/Tom3.txt"
+
+<master>
+locc$AmbR_hh=1
+amplitude_oncc$AmbR_hh=$range_level
+#include "../Data/group/Hihat.txt"
+#include "../Data/group/Hihat_foot.txt"
+
+<master>
+locc$AmbR_rd=1
+amplitude_oncc$AmbR_rd=$range_level
+#include "../Data/group/Ride.txt"
+
+<master>
+locc$AmbR_cl=1
+amplitude_oncc$AmbR_cl=$range_level
+#include "../Data/group/Crash_left.txt"
+
+<master>
+locc$AmbR_cr=1
+amplitude_oncc$AmbR_cr=$range_level
+#include "../Data/group/Crash_right.txt"

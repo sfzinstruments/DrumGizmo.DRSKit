@@ -1,7 +1,6 @@
 #define $instr Kdrum_without_contact
 group_label=$instr
 group=$grp_kd
-key=$key_kd_nc
 
 <region> lovel=$v61l hivel=$v61h amp_velcurve_$v61h=1 region_label=1 sample=$instr/1-$instr-$mic.$ext seq_length=4 seq_position=1 ampeg_attack=0.0005
 <region> lovel=$v61l hivel=$v61h amp_velcurve_$v61h=1 region_label=2 sample=$instr/2-$instr-$mic.$ext seq_length=4 seq_position=2 ampeg_attack=0.0005

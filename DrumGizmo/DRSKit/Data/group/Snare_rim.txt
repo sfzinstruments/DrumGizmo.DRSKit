@@ -1,0 +1,3 @@
+<group>
+key=$key_sn_rim
+#include "../Data/region/Snare_rim.txt"

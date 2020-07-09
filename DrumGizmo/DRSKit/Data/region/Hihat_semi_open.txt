@@ -2,13 +2,6 @@
 group_label=$instr
 group=$grp_hh_so
 off_by=$off_hh_so
-key=$key_hh_so
-
-//------------------------------------------------------------
-//on_so
-sample=*silence
-<region> off_by=-1 group=$off_hh_op
-//------------------------------------------------------------
 
 <region> lovel=$v51l hivel=$v51h amp_velcurve_$v51h=1 region_label=1 sample=$instr/1-$instr-$mic.$ext seq_length=2 seq_position=1
 <region> lovel=$v51l hivel=$v51h amp_velcurve_$v51h=1 region_label=2 sample=$instr/2-$instr-$mic.$ext seq_length=2 seq_position=2
@@ -27,3 +20,6 @@ sample=*silence
 <region> lovel=$v55l hivel=$v55h amp_velcurve_$v55h=1 region_label=11 sample=$instr/11-$instr-$mic.$ext seq_length=3 seq_position=1
 <region> lovel=$v55l hivel=$v55h amp_velcurve_$v55h=1 region_label=12 sample=$instr/12-$instr-$mic.$ext seq_length=3 seq_position=2
 <region> lovel=$v55l hivel=$v55h amp_velcurve_$v55h=1 region_label=13 sample=$instr/13-$instr-$mic.$ext seq_length=3 seq_position=3
+
+//------------------------------------------------------------
+#include "../Data/setting/on_so.txt"

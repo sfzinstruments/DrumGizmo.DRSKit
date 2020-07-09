@@ -1,0 +1,3 @@
+<group>
+key=$key_hh_ft
+#include "../Data/region/Hihat_foot.txt"

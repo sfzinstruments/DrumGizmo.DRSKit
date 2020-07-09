@@ -1,14 +1,6 @@
 #define $instr Hihat_closed_whisker
 group_label=$instr
 group=$grp_hh_c
-key=$key_w_hh_cl
-
-//------------------------------------------------------------
-//off_all
-sample=*silence
-<region> off_by=-1 group=$off_hh_op
-<region> off_by=-1 group=$off_hh_so
-//------------------------------------------------------------
 
 <region> lovel=$v51l hivel=$v51h amp_velcurve_$v51h=1 region_label=1 sample=$instr/1-$instr-$mic.$ext seq_length=3 seq_position=1
 <region> lovel=$v51l hivel=$v51h amp_velcurve_$v51h=1 region_label=2 sample=$instr/2-$instr-$mic.$ext seq_length=3 seq_position=2
@@ -25,3 +17,6 @@ sample=*silence
 <region> lovel=$v54l hivel=$v54h amp_velcurve_$v54h=1 region_label=10 sample=$instr/10-$instr-$mic.$ext seq_length=2 seq_position=2
 
 <region> lovel=$v55l hivel=$v55h amp_velcurve_$v55h=1 region_label=11 sample=$instr/11-$instr-$mic.$ext seq_length=1 seq_position=1
+
+//------------------------------------------------------------
+#include "../Data/setting/off_all.txt"

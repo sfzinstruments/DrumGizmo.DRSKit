@@ -1,0 +1,120 @@
+#include "../Data/mic/Ride.txt"
+
+//------------------------------------------------------------
+#include "../Data/setting/F_nowh.txt"
+
+<master>
+locc$Ride_kd=1
+locc$Ride_all=1
+amplitude_oncc$Ride_kd=$range_bleed
+amplitude_oncc$Ride_all=$range_bleed
+#include "../Data/group/Kdrum.txt"
+
+<master>
+locc$Ride_sn=1
+locc$Ride_all=1
+amplitude_oncc$Ride_sn=$range_bleed
+amplitude_oncc$Ride_all=$range_bleed
+#include "../Data/group/Snare.txt"
+#include "../Data/group/Snare_rim.txt"
+
+<master>
+locc$Ride_t1=1
+locc$Ride_all=1
+amplitude_oncc$Ride_t1=$range_bleed
+amplitude_oncc$Ride_all=$range_bleed
+#include "../Data/group/Tom1.txt"
+
+<master>
+locc$Ride_t2=1
+locc$Ride_all=1
+amplitude_oncc$Ride_t2=$range_bleed
+amplitude_oncc$Ride_all=$range_bleed
+#include "../Data/group/Tom2.txt"
+
+<master>
+locc$Ride_t3=1
+locc$Ride_all=1
+amplitude_oncc$Ride_t3=$range_bleed
+amplitude_oncc$Ride_all=$range_bleed
+#include "../Data/group/Tom3.txt"
+
+<master>
+locc$Ride_hh=1
+locc$Ride_all=1
+amplitude_oncc$Ride_hh=$range_bleed
+amplitude_oncc$Ride_all=$range_bleed
+#include "../Data/group/Hihat.txt"
+#include "../Data/group/Hihat_foot.txt"
+
+<master>
+#include "../Data/group/Ride.txt"
+
+<master>
+locc$Ride_cl=1
+locc$Ride_all=1
+amplitude_oncc$Ride_cl=$range_bleed
+amplitude_oncc$Ride_all=$range_bleed
+#include "../Data/group/Crash_left.txt"
+
+<master>
+locc$Ride_cr=1
+locc$Ride_all=1
+amplitude_oncc$Ride_cr=$range_bleed
+amplitude_oncc$Ride_all=$range_bleed
+#include "../Data/group/Crash_right.txt"
+
+//------------------------------------------------------------
+#include "../Data/setting/F_whis.txt"
+
+<master>
+locc$Ride_sn=1
+locc$Ride_all=1
+amplitude_oncc$Ride_sn=$range_bleed
+amplitude_oncc$Ride_all=$range_bleed
+#include "../Data/group/Snare_whisker.txt"
+
+<master>
+locc$Ride_t1=1
+locc$Ride_all=1
+amplitude_oncc$Ride_t1=$range_bleed
+amplitude_oncc$Ride_all=$range_bleed
+#include "../Data/group/Tom1_whisker.txt"
+
+<master>
+locc$Ride_t2=1
+locc$Ride_all=1
+amplitude_oncc$Ride_t2=$range_bleed
+amplitude_oncc$Ride_all=$range_bleed
+#include "../Data/group/Tom2_whisker.txt"
+
+<master>
+locc$Ride_t3=1
+locc$Ride_all=1
+amplitude_oncc$Ride_t3=$range_bleed
+amplitude_oncc$Ride_all=$range_bleed
+#include "../Data/group/Tom3_whisker.txt"
+
+<master>
+locc$Ride_hh=1
+locc$Ride_all=1
+amplitude_oncc$Ride_hh=$range_bleed
+amplitude_oncc$Ride_all=$range_bleed
+#include "../Data/group/Hihat_whisker.txt"
+
+<master>
+#include "../Data/group/Ride_whisker.txt"
+
+<master>
+locc$Ride_cl=1
+locc$Ride_all=1
+amplitude_oncc$Ride_cl=$range_bleed
+amplitude_oncc$Ride_all=$range_bleed
+#include "../Data/group/Crash_left_whisker.txt"
+
+<master>
+locc$Ride_cr=1
+locc$Ride_all=1
+amplitude_oncc$Ride_cr=$range_bleed
+amplitude_oncc$Ride_all=$range_bleed
+#include "../Data/group/Crash_right_whisker.txt"

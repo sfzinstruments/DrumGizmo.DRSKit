@@ -1,4 +1,14 @@
 note_polyphony=$poly_drm
 off_time=$otm_t3
 
-<group> #include "Data/region/Tom3_whisker.txt"
+<group>
+key=$key_tw3
+#include "../Data/setting/sw_notes.txt"
+#include "../Data/region/Tom3_whisker.txt"
+
+//--------------------------------------------
+
+<group>
+key=$key_t3
+#include "../Data/setting/sw_whis.txt"
+#include "../Data/region/Tom3_whisker.txt"

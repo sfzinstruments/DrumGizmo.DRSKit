@@ -1,0 +1,55 @@
+#include "../Data/mic/Snare_top.txt"
+
+locc$vol_cm=1
+locc$vol_st=1
+amplitude_oncc$vol_cm=$range_level
+amplitude_oncc$vol_st=$range_level
+pan_oncc$pan_sn=$range_pan
+pan_curvecc$pan_sn=1
+
+//------------------------------------------------------------
+
+<master>
+locc$bleed_all=1
+amplitude_oncc$bleed_all=$range_bleed
+#include "../Data/group/Kdrum.txt"
+
+<master>
+#include "../Data/group/Snare.txt"
+#include "../Data/group/Snare_rim.txt"
+
+<master>
+locc$bleed_all=1
+amplitude_oncc$bleed_all=$range_bleed
+#include "../Data/group/Tom1.txt"
+
+<master>
+locc$bleed_all=1
+amplitude_oncc$bleed_all=$range_bleed
+#include "../Data/group/Tom2.txt"
+
+<master>
+locc$bleed_all=1
+amplitude_oncc$bleed_all=$range_bleed
+#include "../Data/group/Tom3.txt"
+
+<master>
+locc$bleed_all=1
+amplitude_oncc$bleed_all=$range_bleed
+#include "../Data/group/Hihat.txt"
+#include "../Data/group/Hihat_foot.txt"
+
+<master>
+locc$bleed_all=1
+amplitude_oncc$bleed_all=$range_bleed
+#include "../Data/group/Ride.txt"
+
+<master>
+locc$bleed_all=1
+amplitude_oncc$bleed_all=$range_bleed
+#include "../Data/group/Crash_left.txt"
+
+<master>
+locc$bleed_all=1
+amplitude_oncc$bleed_all=$range_bleed
+#include "../Data/group/Crash_right.txt"

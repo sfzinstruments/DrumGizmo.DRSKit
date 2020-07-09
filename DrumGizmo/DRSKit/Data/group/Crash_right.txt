@@ -1,13 +1,32 @@
-note_polyphony=$poly_cym
 off_time=$otm_cr
 
-<group> #include "Data/region/Crash_right_shank.txt"
-<group> #include "Data/region/Crash_right_tip.txt"
+<group>
+key=$key_cr_shk
+note_polyphony=$poly_cym
+#include "../Data/setting/sw_both.txt"
+#include "../Data/region/Crash_right_shank.txt"
+
+<group>
+key=$key_cr_tip
+note_polyphony=$poly_cym
+#include "../Data/setting/sw_both.txt"
+#include "../Data/region/Crash_right_tip.txt"
 
 //--------------------------------------------
 
 <group>
+#include "../Data/setting/off_cr.txt"
+
+<region>
+key=$key_cr_shk
+#include "../Data/setting/sw_both.txt"
+#include "../Data/setting/polyaft.txt"
+
+<region>
+key=$key_cr_tip
+#include "../Data/setting/sw_both.txt"
+#include "../Data/setting/polyaft.txt"
+
+<region>
 key=$chk_cr
-group=$off_cr
-group_label=Crash_right_choke
-<region> sample=*silence
+#include "../Data/setting/sw_notes.txt"

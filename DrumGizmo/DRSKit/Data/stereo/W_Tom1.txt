@@ -1,0 +1,55 @@
+#include "../Data/mic/Tom1.txt"
+
+locc$vol_cm=1
+locc$vol_t1=1
+amplitude_oncc$vol_cm=$range_level
+amplitude_oncc$vol_t1=$range_level
+pan_oncc$pan_t1=$range_pan
+pan_curvecc$pan_t1=1
+
+//------------------------------------------------------------
+
+<master>
+locc$bleed_all=1
+amplitude_oncc$bleed_all=$range_bleed
+#include "../Data/group/Kdrum.txt"
+
+<master>
+locc$bleed_all=1
+amplitude_oncc$bleed_all=$range_bleed
+#include "../Data/group/Snare_whisker.txt"
+#include "../Data/group/Snare_rim.txt"
+
+<master>
+#include "../Data/group/Tom1_whisker.txt"
+
+<master>
+locc$bleed_all=1
+amplitude_oncc$bleed_all=$range_bleed
+#include "../Data/group/Tom2_whisker.txt"
+
+<master>
+locc$bleed_all=1
+amplitude_oncc$bleed_all=$range_bleed
+#include "../Data/group/Tom3_whisker.txt"
+
+<master>
+locc$bleed_all=1
+amplitude_oncc$bleed_all=$range_bleed
+#include "../Data/group/Hihat_whisker.txt"
+#include "../Data/group/Hihat_foot.txt"
+
+<master>
+locc$bleed_all=1
+amplitude_oncc$bleed_all=$range_bleed
+#include "../Data/group/Ride_whisker.txt"
+
+<master>
+locc$bleed_all=1
+amplitude_oncc$bleed_all=$range_bleed
+#include "../Data/group/Crash_left_whisker.txt"
+
+<master>
+locc$bleed_all=1
+amplitude_oncc$bleed_all=$range_bleed
+#include "../Data/group/Crash_right_whisker.txt"

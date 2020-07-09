@@ -1,0 +1,51 @@
+label_cc$vol_kf=$label_kd$label_front
+label_cc$vol_kb=$label_kd$label_back
+label_cc$vol_st=$label_sn$label_top
+label_cc$vol_sb=$label_sn$label_bot
+label_cc$vol_t1=$label_t1
+label_cc$vol_t2=$label_t2
+label_cc$vol_t3=$label_t3
+label_cc$vol_hh=$label_hh
+label_cc$vol_rd=$label_rd
+
+label_cc$pan_kd=$label_pan $label_kd
+label_cc$pan_sn=$label_pan $label_sn
+label_cc$pan_t1=$label_pan $label_t1
+label_cc$pan_t2=$label_pan $label_t2
+label_cc$pan_t3=$label_pan $label_t3
+label_cc$pan_hh=$label_pan $label_hh
+label_cc$pan_rd=$label_pan $label_rd
+
+label_cc$wid_oh=$label_wid $label_oh
+label_cc$wid_am=$label_wid $label_am
+label_cc$bleed_bot=$label_bleed $label_bot
+label_cc$bleed_all=$label_bleed $label_all
+label_cc$vol_cm=$label_cm
+label_cc$vol_oh=$label_oh
+label_cc$vol_am=$label_am
+
+set_hdcc$vol_kf=$set_def
+set_hdcc$vol_kb=$set_def
+set_hdcc$vol_st=$set_def
+set_hdcc$vol_sb=$set_def
+set_hdcc$vol_t1=$set_def
+set_hdcc$vol_t2=$set_def
+set_hdcc$vol_t3=$set_def
+set_hdcc$vol_hh=0.1
+set_hdcc$vol_rd=0.1
+
+set_hdcc$pan_kd=$set_def
+set_hdcc$pan_sn=$set_def
+set_hdcc$pan_t1=0.4
+set_hdcc$pan_t2=0.6
+set_hdcc$pan_t3=0.8
+set_hdcc$pan_hh=0.3
+set_hdcc$pan_rd=0.7
+
+set_hdcc$wid_oh=$set_full
+set_hdcc$wid_am=$set_full
+set_hdcc$bleed_bot=$set_full
+set_hdcc$bleed_all=0
+set_hdcc$vol_cm=$set_def
+set_hdcc$vol_oh=$set_def
+set_hdcc$vol_am=$set_def

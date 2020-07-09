@@ -1,0 +1,4 @@
+group=$off_cl
+group_label=Crash_left_choke
+ampeg_sustain=0
+sample=*silence

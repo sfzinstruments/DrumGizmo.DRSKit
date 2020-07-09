@@ -1,6 +1,24 @@
 note_polyphony=$poly_drm
 off_time=$otm_sn
 
-<group> #include "Data/region/Snare_circle_whisker.txt"
-<group> #include "Data/region/Snare_whisker.txt"
-<group> #include "Data/region/Snare_rim.txt"
+<group>
+key=$key_sn_crc
+#include "../Data/setting/sw_notes.txt"
+#include "../Data/region/Snare_circle_whisker.txt"
+
+<group>
+key=$key_sn_wsk
+#include "../Data/setting/sw_notes.txt"
+#include "../Data/region/Snare_whisker.txt"
+
+//--------------------------------------------
+
+<group>
+key=$key_sn_hit
+#include "../Data/setting/sw_whis.txt"
+#include "../Data/region/Snare_circle_whisker.txt"
+
+<group>
+key=$key_sn_rst
+#include "../Data/setting/sw_whis.txt"
+#include "../Data/region/Snare_whisker.txt"

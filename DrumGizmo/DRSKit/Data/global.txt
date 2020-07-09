@@ -1,4 +1,6 @@
 <global>
 loop_mode=one_shot
 amp_veltrack=$veltrack
-off_mode=time
+sw_lokey=$sw_notes
+sw_hikey=$sw_whis
+sw_default=$sw_default

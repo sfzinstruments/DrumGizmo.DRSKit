@@ -1,0 +1,15 @@
+//======DRSKit======
+//Author: Lars Muldjord / Bent Bisballe Nyeng
+//Homepage: www.drumgizmo.org
+//--------------------------------------------
+//ARIA SFZ Level 2.0 by kinwie
+//--------------------------------------------
+
+#include "../Data/keymap.txt"
+#include "../Data/macro.txt"
+#include "../Data/control/def_OHL.txt"
+#include "../Data/control/ped_con.txt"
+//--------------------------------------------
+
+#include "../Data/global.txt"
+#include "../Data/multi/N_OHL.txt"

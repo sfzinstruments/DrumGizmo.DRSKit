@@ -1,8 +1,7 @@
 #define $instr Ride_whisker
 group_label=$instr
-group=$grp_w_rd
+group=$grp_rd_tip
 off_by=$off_rd
-key=$key_w_rd
 
 <region> lovel=$v41l hivel=$v41h amp_velcurve_$v41h=1 region_label=1 sample=$instr/1-$instr-$mic.$ext seq_length=2 seq_position=1
 <region> lovel=$v41l hivel=$v41h amp_velcurve_$v41h=1 region_label=2 sample=$instr/2-$instr-$mic.$ext seq_length=2 seq_position=2

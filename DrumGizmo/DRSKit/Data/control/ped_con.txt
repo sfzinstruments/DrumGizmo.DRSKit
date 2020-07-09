@@ -1,0 +1,2 @@
+label_cc$ped=$label_ped ($ped)
+label_cc$con=$label_con ($con)

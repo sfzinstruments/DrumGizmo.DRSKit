@@ -1,0 +1,26 @@
+//======DRSKit======
+//Author: Lars Muldjord / Bent Bisballe Nyeng
+//Homepage: www.drumgizmo.org
+//--------------------------------------------
+//ARIA SFZ Level 2.0 by kinwie
+//--------------------------------------------
+
+#include "../Data/keymap.txt"
+#include "../Data/macro.txt"
+#include "../Data/control/stereo.txt"
+#include "../Data/control/ped_con.txt"
+//--------------------------------------------
+
+#include "../Data/global.txt" #include "../Data/stereo/N_Kdrum_front.txt"
+#include "../Data/global.txt" #include "../Data/stereo/N_Kdrum_back.txt"
+#include "../Data/global.txt" #include "../Data/stereo/N_Snare_top.txt"
+#include "../Data/global.txt" #include "../Data/stereo/N_Snare_bottom.txt"
+#include "../Data/global.txt" #include "../Data/stereo/N_Tom1.txt"
+#include "../Data/global.txt" #include "../Data/stereo/N_Tom2.txt"
+#include "../Data/global.txt" #include "../Data/stereo/N_Tom3.txt"
+#include "../Data/global.txt" #include "../Data/stereo/N_Hihat.txt"
+#include "../Data/global.txt" #include "../Data/stereo/N_Ride.txt"
+#include "../Data/global.txt" #include "../Data/stereo/N_OHL.txt"
+#include "../Data/global.txt" #include "../Data/stereo/N_OHR.txt"
+#include "../Data/global.txt" #include "../Data/stereo/N_AmbL.txt"
+#include "../Data/global.txt" #include "../Data/stereo/N_AmbR.txt"

@@ -1,18 +1,87 @@
-note_polyphony=$poly_cym
 off_time=$otm_rd
 
-<group> #include "Data/region/Ride_tip.txt"
-<group> #include "Data/region/Ride_shank_bell.txt"
-<group> #include "Data/region/Ride_rest.txt"
-<group> #include "Data/region/Ride_shank.txt"
-<group> #include "Data/region/Ride_tip_bell.txt"
-<group> #include "Data/region/Ride_tip_bell_chain.txt"
-<group> #include "Data/region/Ride_tip_chain.txt"
+<group>
+key=$key_rd_tip
+note_polyphony=$poly_cym
+#include "../Data/setting/sw_both.txt"
+#include "../Data/region/Ride_tip.txt"
+
+<group>
+key=$key_rd_sbl
+note_polyphony=$poly_cym
+#include "../Data/setting/sw_both.txt"
+#include "../Data/region/Ride_shank_bell.txt"
+
+<group>
+key=$key_rd_rst
+note_polyphony=$poly_cym
+#include "../Data/setting/sw_notes.txt"
+#include "../Data/region/Ride_rest.txt"
+
+<group>
+key=$key_rd_shk
+note_polyphony=$poly_cym
+#include "../Data/setting/sw_both.txt"
+#include "../Data/region/Ride_shank.txt"
+
+<group>
+key=$key_rd_tbl
+note_polyphony=$poly_cym
+#include "../Data/setting/sw_both.txt"
+#include "../Data/region/Ride_tip_bell.txt"
+
+<group>
+key=$key_rd_tbc
+note_polyphony=$poly_cym
+#include "../Data/setting/sw_notes.txt"
+#include "../Data/region/Ride_tip_bell_chain.txt"
+
+<group>
+key=$key_rd_tch
+note_polyphony=$poly_cym
+#include "../Data/setting/sw_notes.txt"
+#include "../Data/region/Ride_tip_chain.txt"
 
 //--------------------------------------------
 
 <group>
+#include "../Data/setting/off_rd.txt"
+
+<region>
+key=$key_rd_tip
+#include "../Data/setting/sw_both.txt"
+#include "../Data/setting/polyaft.txt"
+
+<region>
+key=$key_rd_sbl
+#include "../Data/setting/sw_both.txt"
+#include "../Data/setting/polyaft.txt"
+
+<region>
+key=$key_rd_rst
+#include "../Data/setting/sw_notes.txt"
+#include "../Data/setting/polyaft.txt"
+
+<region>
+key=$key_rd_shk
+#include "../Data/setting/sw_both.txt"
+#include "../Data/setting/polyaft.txt"
+
+<region>
+key=$key_rd_tbl
+#include "../Data/setting/sw_both.txt"
+#include "../Data/setting/polyaft.txt"
+
+<region>
+key=$key_rd_tbc
+#include "../Data/setting/sw_notes.txt"
+#include "../Data/setting/polyaft.txt"
+
+<region>
+key=$key_rd_tch
+#include "../Data/setting/sw_notes.txt"
+#include "../Data/setting/polyaft.txt"
+
+<region>
 key=$chk_rd
-group=$off_rd
-group_label=Ride_choke
-<region> sample=*silence
+#include "../Data/setting/sw_notes.txt"

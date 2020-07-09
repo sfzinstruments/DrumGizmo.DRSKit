@@ -1,0 +1,4 @@
+group=$off_rd
+group_label=Ride_choke
+ampeg_sustain=0
+sample=*silence

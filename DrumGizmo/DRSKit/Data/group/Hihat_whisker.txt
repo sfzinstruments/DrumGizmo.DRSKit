@@ -1,6 +1,28 @@
-note_polyphony=$poly_hh
+note_polyphony=$poly_cym
 off_time=$otm_hh
 
-<group> #include "Data/region/Hihat_closed_whisker.txt"
-<group> #include "Data/region/Hihat_foot.txt"
-<group> #include "Data/region/Hihat_open_whisker.txt"
+<group>
+key=$key_hh_cw
+#include "../Data/setting/sw_notes.txt"
+#include "../Data/region/Hihat_closed_whisker.txt"
+
+<group>
+key=$key_hh_ow
+#include "../Data/setting/sw_notes.txt"
+#include "../Data/region/Hihat_open_whisker.txt"
+
+//--------------------------------------------
+
+<group>
+key=$key_hh_bow
+locc$ped=$loped1
+hicc$ped=$hiped2
+#include "../Data/setting/sw_whis.txt"
+#include "../Data/region/Hihat_open_whisker.txt"
+
+<group>
+key=$key_hh_bow
+locc$ped=$loped3
+hicc$ped=$hiped3
+#include "../Data/setting/sw_whis.txt"
+#include "../Data/region/Hihat_closed_whisker.txt"

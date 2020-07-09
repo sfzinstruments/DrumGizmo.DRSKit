@@ -122,5 +122,20 @@ Many big thanks to all the DrumGizmo team and DRSDrums for this fantastic sample
 library, and  that has been very kind making this kit available to us for free,
 and to Lars Muldjord for kindly providing useful help.
 
+# Changelog
+
+## 9-July-2020
+
+- New stereo Sforzando version
+- Polyphonic Aftertouch feature for cymbals choke using E-Drums
+- Variable hihats (CC4) for E-Drums
+- Keyswitches for mapping mode
+- The "Bleed ALL" control in the stereo version is turned off by default (0),
+  to lighten the polyphony/voices consumption within single instance of Sforzando.
+- "Bleed Bottom" is for enabling Kick and Toms bleed in the snare bottom channel.
+- Caution for .ariax multi version : Do not change volume and pan (CC7 & CC10)
+  from your Keyboard/MIDI controller/DAW MIDI track,
+  because it will modify all the ARIA Player's slots/channels simultaneously.
+
 [DRSDrums]:          http://www.drsdrums.dk/
 [DrumGizmo website]: https://www.drumgizmo.org/wiki/doku.php?id=kits:drskit

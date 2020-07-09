@@ -1,0 +1,2 @@
+sw_last=$sw_nowh
+sw_label=$label_edrums

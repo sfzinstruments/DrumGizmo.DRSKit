@@ -2,7 +2,6 @@
 group_label=$instr
 group=$grp_hh_op
 off_by=$off_hh_op
-key=$key_hh_ot
 
 <region> lovel=$v51l hivel=$v51h amp_velcurve_$v51h=1 region_label=1 sample=$instr/1-$instr-$mic.$ext seq_length=2 seq_position=1
 <region> lovel=$v51l hivel=$v51h amp_velcurve_$v51h=1 region_label=2 sample=$instr/2-$instr-$mic.$ext seq_length=2 seq_position=2

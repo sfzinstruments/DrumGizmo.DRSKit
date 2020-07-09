@@ -1,3 +1,5 @@
+// DRSKit default keymap
+
 #define $key_kd_nc 35
 #define $key_kd_wc 36
 
@@ -30,28 +32,32 @@
 #define $key_cr_shk 57
 #define $key_cr_tip 55
 
+//whiskers
+#define $key_sn_crc 69
+#define $key_sn_wsk 71
+#define $key_tw1 72
+#define $key_tw2 74
+#define $key_tw3 76
+#define $key_hh_cw 64
+#define $key_hh_ow 65
+#define $key_rd_w 67
+#define $key_cl_w 60
+#define $key_cr_w 62
+
+//cymbal choke
+#define $chk_cl 48
+#define $chk_cr 50
+#define $chk_rd 52
+
+//variable hh
+#define $key_hh_bow 46
+#define $key_hh_edg 26
+
 //--------------------------------------------
-//whisker keys
+//keyswitch
 
-#define $key_w_sn_crc 69
-#define $key_w_sn_hit 71
+#define $sw_default 12
 
-#define $key_w_t1 72
-#define $key_w_t2 74
-#define $key_w_t3 76
-
-#define $key_w_hh_cl 64
-#define $key_w_hh_op 65
-
-#define $key_w_rd 67
-
-#define $key_w_cl 60
-
-#define $key_w_cr 62
-
-//--------------------------------------------
-//added cymbal choke keys
-
-#define $chk_rd 84
-#define $chk_cl 85
-#define $chk_cr 86
+#define $sw_notes 12
+#define $sw_nowh 13
+#define $sw_whis 14

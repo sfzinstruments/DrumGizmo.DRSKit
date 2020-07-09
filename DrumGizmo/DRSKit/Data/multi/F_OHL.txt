@@ -1,0 +1,94 @@
+#include "../Data/mic/OHL.txt"
+
+//------------------------------------------------------------
+#include "../Data/setting/F_nowh.txt"
+
+<master>
+locc$OHL_kd=1
+amplitude_oncc$OHL_kd=$range_level
+#include "../Data/group/Kdrum.txt"
+
+<master>
+locc$OHL_sn=1
+amplitude_oncc$OHL_sn=$range_level
+#include "../Data/group/Snare.txt"
+#include "../Data/group/Snare_rim.txt"
+
+<master>
+locc$OHL_t1=1
+amplitude_oncc$OHL_t1=$range_level
+#include "../Data/group/Tom1.txt"
+
+<master>
+locc$OHL_t2=1
+amplitude_oncc$OHL_t2=$range_level
+#include "../Data/group/Tom2.txt"
+
+<master>
+locc$OHL_t3=1
+amplitude_oncc$OHL_t3=$range_level
+#include "../Data/group/Tom3.txt"
+
+<master>
+locc$OHL_hh=1
+amplitude_oncc$OHL_hh=$range_level
+#include "../Data/group/Hihat.txt"
+#include "../Data/group/Hihat_foot.txt"
+
+<master>
+locc$OHL_rd=1
+amplitude_oncc$OHL_rd=$range_level
+#include "../Data/group/Ride.txt"
+
+<master>
+locc$OHL_cl=1
+amplitude_oncc$OHL_cl=$range_level
+#include "../Data/group/Crash_left.txt"
+
+<master>
+locc$OHL_cr=1
+amplitude_oncc$OHL_cr=$range_level
+#include "../Data/group/Crash_right.txt"
+
+//------------------------------------------------------------
+#include "../Data/setting/F_whis.txt"
+
+<master>
+locc$OHL_sn=1
+amplitude_oncc$OHL_sn=$range_level
+#include "../Data/group/Snare_whisker.txt"
+
+<master>
+locc$OHL_t1=1
+amplitude_oncc$OHL_t1=$range_level
+#include "../Data/group/Tom1_whisker.txt"
+
+<master>
+locc$OHL_t2=1
+amplitude_oncc$OHL_t2=$range_level
+#include "../Data/group/Tom2_whisker.txt"
+
+<master>
+locc$OHL_t3=1
+amplitude_oncc$OHL_t3=$range_level
+#include "../Data/group/Tom3_whisker.txt"
+
+<master>
+locc$OHL_hh=1
+amplitude_oncc$OHL_hh=$range_level
+#include "../Data/group/Hihat_whisker.txt"
+
+<master>
+locc$OHL_rd=1
+amplitude_oncc$OHL_rd=$range_level
+#include "../Data/group/Ride_whisker.txt"
+
+<master>
+locc$OHL_cl=1
+amplitude_oncc$OHL_cl=$range_level
+#include "../Data/group/Crash_left_whisker.txt"
+
+<master>
+locc$OHL_cr=1
+amplitude_oncc$OHL_cr=$range_level
+#include "../Data/group/Crash_right_whisker.txt"
