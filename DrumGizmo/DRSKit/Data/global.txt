@@ -1,6 +1,10 @@
 <global>
 loop_mode=one_shot
 amp_veltrack=$veltrack
+amplitude_oncc7=100
+amplitude_curvecc7=4
+pan_oncc10=100
+pan_curvecc10=1
 sw_lokey=$sw_notes
 sw_hikey=$sw_whis
 sw_default=$sw_default
