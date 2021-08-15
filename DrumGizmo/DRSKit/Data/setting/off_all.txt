@@ -9,3 +9,15 @@ sample=*silence
 off_by=-1
 end=-1
 group=$off_hh_so
+
+<region>
+sample=*silence
+off_by=-1
+end=-1
+group=$off_hh_cs
+
+<region>
+sample=*silence
+off_by=-1
+end=-1
+group=$off_hh_cl
