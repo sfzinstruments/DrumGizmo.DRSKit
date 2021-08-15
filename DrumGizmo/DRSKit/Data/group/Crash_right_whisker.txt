@@ -1,4 +1,5 @@
 off_time=$otm_cr
+off_shape=$osh_cym
 
 <group>
 key=$key_cr_w
