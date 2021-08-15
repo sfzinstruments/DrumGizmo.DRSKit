@@ -1,6 +1,7 @@
 #define $instr Hihat_closed
 group_label=$instr
-group=$grp_hh_c
+group=$grp_hh_cl
+off_by=$off_hh_cl
 
 <region> lovel=$v61l hivel=$v61h amp_velcurve_$v61h=1 region_label=1 sample=$instr/1-$instr-$mic.$ext seq_length=3 seq_position=1
 <region> lovel=$v61l hivel=$v61h amp_velcurve_$v61h=1 region_label=2 sample=$instr/2-$instr-$mic.$ext seq_length=3 seq_position=2
@@ -27,4 +28,4 @@ group=$grp_hh_c
 <region> lovel=$v66l hivel=$v66h amp_velcurve_$v66h=1 region_label=18 sample=$instr/18-$instr-$mic.$ext seq_length=3 seq_position=3
 
 //------------------------------------------------------------
-#include "../Data/setting/off_all.txt"
+#include "../Data/setting/on_cl.txt"
