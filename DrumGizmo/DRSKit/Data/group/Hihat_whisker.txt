@@ -1,4 +1,4 @@
-note_polyphony=$poly_cym
+note_polyphony=$poly_hh
 off_time=$otm_hh
 
 <group>
