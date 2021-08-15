@@ -69,7 +69,7 @@
 //--------------------------------------------
 //range-default
 
-#define $veltrack 99
+#define $osh_cym -3
 #define $range_bleed 100
 #define $range_level 200
 #define $range_pan 100
@@ -215,16 +215,19 @@
 //--------------------------------------------
 //off group shared id
 
-#define $off_hh_so 300
-#define $off_hh_op 301
-#define $off_rd 302
-#define $off_cl 303
-#define $off_cr 304
+#define $off_hh_cl 300
+#define $off_hh_cs 301
+#define $off_hh_so 302
+#define $off_hh_op 303
+#define $off_rd 304
+#define $off_cl 305
+#define $off_cr 306
 
 //--------------------------------------------
 //note polyphony
 
-#define $poly_drm 2
+#define $poly_drm 1
+#define $poly_hh 3
 #define $poly_cym 4
 
 //--------------------------------------------
